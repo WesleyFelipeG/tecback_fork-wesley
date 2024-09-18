@@ -4,13 +4,15 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class DiretorDTO {
-
+public class TrilhaSonoraDTO {
     private Long id;
-    private String nome;
-
+    private String compositor;
+    private Long filmeId;
+    private List<String> faixas;
+    private List<Integer> duracoes;
 }

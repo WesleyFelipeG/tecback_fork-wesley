@@ -4,21 +4,20 @@ import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
-
 @Data
-@NoArgsConstructor
 @Entity
-public class Genero {
+@NoArgsConstructor
+public class Critica {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String nome;
+    private String autor;
+    private int nota;
+    private String comentario;
 
-    @ManyToMany(mappedBy = "generos")
-    private List<Filme> filmes;
+    @ManyToOne
+    @JoinColumn(name = "filme_id")
+    private Filme filme;
 }
-
