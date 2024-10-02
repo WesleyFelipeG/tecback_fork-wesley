@@ -17,3 +17,17 @@ Cada membro contribuiu com a implementação de um ou mais endpoints, além dos 
   - `PUT /diretor/{id}`
   - `DELETE /diretor/{id}`
   Também criou o `DiretorService`, `DiretorRepository` e o model `Diretor` anotado com `@Entity`.
+  
+  Desenvolveu o CRUD completo para **Ator**:
+  - `GET /ator`
+  - `POST /ator`
+  - `PUT /ator/{id}`
+  - `DELETE /ator/{id}`
+  Também criou o `AtorrService`, `AtorRepository` e o model `Ator` anotado com `@Entity`.
+
+  Desenvolveu o CRUD completo para **Genero**:
+  - `GET /genero`
+  - `POST /genero`
+  - `PUT /genero/{id}`
+  - `DELETE /genero/{id}`
+  Também criou o `GeneroService`, `GeneroRepository` e o model `Genero` anotado com `@Entity`.
