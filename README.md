@@ -11,8 +11,7 @@ Cada membro contribuiu com a implementação de um ou mais endpoints, além dos 
 ### Detalhamento das Contribuições:
 
 - **Wesley Felipe Gouveia Soares**
-  
-  Desenvolveu o CRUD completo para **Diretor**:
+  Desenvolveu o CRUD completo para **Diretor**:
   - `GET /diretor`
   - `POST /diretor`
   - `PUT /diretor/{id}`
@@ -24,7 +23,7 @@ Cada membro contribuiu com a implementação de um ou mais endpoints, além dos 
   - `POST /ator`
   - `PUT /ator/{id}`
   - `DELETE /ator/{id}`
-  Também criou o `AtorrService`, `AtorRepository` e o model `Ator` anotado com `@Entity`.
+  Também criou o `AtorService`, `AtorRepository` e o model `Ator` anotado com `@Entity`.
 
   Desenvolveu o CRUD completo para **Genero**:
   - `GET /genero`
