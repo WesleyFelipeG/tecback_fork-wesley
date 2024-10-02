@@ -11,6 +11,7 @@ Cada membro contribuiu com a implementação de um ou mais endpoints, além dos 
 ### Detalhamento das Contribuições:
 
 - **Wesley Felipe Gouveia Soares**
+
   Desenvolveu o CRUD completo para **Diretor**:
   - `GET /diretor`
   - `POST /diretor`
