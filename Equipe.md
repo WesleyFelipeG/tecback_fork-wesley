@@ -37,6 +37,6 @@ Cada membro contribuiu com a implementação de um ou mais endpoints, além dos 
   Desenvolveu o CRUD completo para **Personagem**
   - `GET /personagem`
   - `POST /personagem`
-  - `PUT /personagem /genero/{id}`
+  - `PUT /personagem/{id}`
   Também criou o `PersonagemService`, `PersonagemRepository` e o model `Personagem` anotado com `@Entity`.
   Também criou o `PersoangemControllerTest` e o `PersonagemServiceTest`
